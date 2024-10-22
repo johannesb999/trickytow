@@ -187,8 +187,8 @@ function createRandomBlock() {
 function createBlock(type) {
   const x = 400;
   const y = 0;
-  const blockWidth = 24;
-  const blockHeight = 24;
+  const blockWidth = 20;
+  const blockHeight = 20;
   let parts = [];
   const friction = 1;
   const strokeColor = "black";
