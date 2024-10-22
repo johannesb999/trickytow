@@ -160,10 +160,10 @@ const blockTypes = [
   "special-block", // 1x special-block
   "special-block", // 1x special-block
   "special-block", // 1x special-block
-  "special-block", // 1x special-block
-  "special-block", // 1x special-block
-  "special-block", // 1x special-block
-  "special-block", // 1x special-block
+  // "special-block", // 1x special-block
+  // "special-block", // 1x special-block
+  // "special-block", // 1x special-block
+  // "special-block", // 1x special-block
 ];
 // Funktion, um zufällig einen Blocktyp auszuwählen
 function getRandomBlockType() {
