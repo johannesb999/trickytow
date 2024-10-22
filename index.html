@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.jsdelivr.net/npm/matter-js@0.14.2/build/matter.min.js"></script>
+    <link rel="icon" type="image/png" href="Frosch.png" sizes="255x198" />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Font end-->
+    <title>TrickyTowers</title>
+  </head>
+  <body>
+    <div id="titel">
+      <h1 id="anweisung">Baue den</h1>
+      <h1 id="anweisung2">höchsten Turm</h1>
+    </div>
+    <img id="DasHierIstImmerNochWerbung" src="HfG-Logo.svg" />
+    <div id="studiengang"></div>
+    <div id="middleFingerMessage" style="display: none">
+      <!-- Johannes ist extrem dumm! -->
+    </div>
+    <img src="Nils.JPG" id="Nils" />
+    <div id="gifBox">
+      <img src="Hand-Slider.gif" width="200" height="auto" />
+    </div>
+    <div id="gifBox2">
+      <img src="Hand-Faust.gif" width="200" height="auto" />
+    </div>
+    <link
+      href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+
+    <section id="demos" class="invisible">
+      <div class="detectOnClick">
+        <p class="classification removed"></p>
+      </div>
+
+      <div class="detectOnClick">
+        <p class="classification removed"></p>
+      </div>
+
+      <div id="liveView" class="videoView">
+        <!-- <button id="webcamButton" class="mdc-button mdc-button--raised">
+          <span class="mdc-button__ripple"></span>
+          <span class="mdc-button__label">ENABLE WEBCAM</span>
+        </button> -->
+        <div style="position: relative">
+          <video style="display: none" id="webcam" autoplay playsinline></video>
+          <canvas
+            class="output_canvas"
+            id="output_canvas"
+            width="392"
+            height="358"
+            style="position: absolute; left: 0px; top: 0px"
+            style="bottom: -651px"
+            ;
+            style="background: 0% 0% / contain black"
+          ></canvas>
+          <p id="gesture_output" class="output"></p>
+        </div>
+      </div>
+    </section>
+
+    <script>
+      let äuft = false;
+      const canvasWidth = 392;
+      const canvasHeight = 672;
+      let palmBaseCenterX = 400;
+      let actualise = false;
+      let fist = false;
+      let victory = false;
+      let thumbUp = false;
+      let thumbDown = false;
+      let isLoopRunning = false;
+    </script>
+    <script type="module" src="hand.js"></script>
+    <script src="pong.js"></script>
+  </body>
+</html>

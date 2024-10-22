@@ -1,0 +1,58 @@
+html {
+  background-color: #343434;
+  font-family: "Inter", sans-serif;
+  /* font-family: "Titillium Web", sans-serif; */
+}
+
+#gifBox2 {
+  position: absolute;
+  top: 40%;
+  left: 7%;
+  transform: scaleX(-1);
+}
+
+#gifBox {
+  position: absolute;
+  top: 65%;
+  left: 7%;
+  transform: scaleX(-1);
+}
+
+#DasHierIstImmerNochWerbung {
+  width: 150px;
+  height: auto;
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}
+
+#middleFingerMessage {
+  position: absolute;
+  color: white;
+  top: 60px;
+  left: 450px;
+  font-size: 30px;
+}
+
+#Nils {
+  display: none;
+  position: absolute;
+  width: 392px;
+  height: auto;
+}
+
+#anweisung {
+  color: white;
+  position: absolute;
+  top: 85%;
+  left: 9%;
+  font-size: 24px;
+}
+
+#anweisung2 {
+  color: white;
+  position: absolute;
+  top: 90%;
+  left: 7%;
+  font-size: 24px;
+}
