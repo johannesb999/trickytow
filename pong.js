@@ -158,8 +158,8 @@ const blockTypes = [
   "reverse-l-block",
   "reverse-l-block", // 4x reverse-l-block
   "special-block", // 1x special-block
-  "special-block", // 1x special-block
-  "special-block", // 1x special-block
+  // "special-block", // 1x special-block
+  // "special-block", // 1x special-block
   // "special-block", // 1x special-block
   // "special-block", // 1x special-block
   // "special-block", // 1x special-block
